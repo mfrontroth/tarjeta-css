@@ -1,0 +1,54 @@
+.card {
+    height: 275px;
+    width: 220px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: black;
+    box-shadow: 2px 2px 10px black;
+}
+
+.card_image {
+    height: 175px;
+    width: 220px;
+    object-fit: cover;
+}
+.card_data {
+    list-style: none;
+    color: whitesmoke;
+    font-size: 1rem;
+}
+
+.card_data_title {
+    color: lightgray;
+}
+
+.card_data_alias {
+    color: red;
+}
+
+.card_button {
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 3px 8px;
+}
+
+.luke {
+    background-color: lightskyblue;
+  color: black;
+}
+
+.card_button:hover {
+    background-color: whitesmoke;
+    color: red;
+}
+
+figcaption ul li {
+    margin-bottom: 3px;
+}
+
+.card_data_alias_luke {
+    color: lightskyblue;
+
+}   
